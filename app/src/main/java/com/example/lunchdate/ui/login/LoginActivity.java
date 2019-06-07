@@ -17,7 +17,10 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.content.Intent;
 
+
+import com.example.lunchdate.MainActivity;
 import com.example.lunchdate.R;
 import com.example.lunchdate.ui.login.LoginViewModel;
 import com.example.lunchdate.ui.login.LoginViewModelFactory;
@@ -123,5 +126,13 @@ public class LoginActivity extends AppCompatActivity {
 
     private void showLoginFailed(@StringRes Integer errorString) {
         Toast.makeText(getApplicationContext(), errorString, Toast.LENGTH_SHORT).show();
+    }
+
+    public void onClick(View view) {
+
+        Intent i = new Intent(LoginActivity.this, MainActivity.class);
+
+        startActivity(i);
+
     }
 }
