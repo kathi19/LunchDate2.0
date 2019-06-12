@@ -1,13 +1,173 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent" android:layout_height="match_parent">
 
     <TextView
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="Home"
-        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+        android:layout_marginTop="10dp"
+        android:text="Profil"
+
+        android:textSize="40dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="24dp"
+
+        tools:srcCompat="@tools:sample/avatars" />
+
+
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="24dp"
+        android:ems="25"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:layout_marginLeft="170dp"
+        android:layout_marginRight="24dp" />
+
+    <EditText
+        android:id="@+id/alter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="24dp"
+        android:ems="35"
+        android:inputType="textPersonName"
+        android:text="Alter"
+        android:layout_marginLeft="170dp"
+        android:layout_marginRight="24dp" />
+
+    <EditText
+        android:id="@+id/studiengang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="24dp"
+        android:ems="25"
+        android:inputType="textPersonName"
+        android:text="Studiengang"
+        android:layout_marginLeft="170dp"
+        android:layout_marginRight="24dp" />
+
+    <EditText
+        android:id="@+id/beginn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="24dp"
+        android:ems="25"
+        android:inputType="textPersonName"
+        android:text="Studienbeginn"
+        android:layout_marginLeft="170dp"
+        android:layout_marginRight="24dp" />
+
+    <TextView
+        android:id="@+id/hobby"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:text="Interessen"
+        android:textSize="25dp" />
+
+    <CheckBox
+        android:id="@+id/sport"
+        android:layout_width="91dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="350dp"
+        android:text="Sport"
+        android:textSize="20dp" />
+
+    <CheckBox
+        android:id="@+id/lesen"
+        android:layout_width="91dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:textSize="20dp"
+        android:text="Lesen" />
+
+    <CheckBox
+        android:id="@+id/reisen"
+        android:layout_width="109dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="260dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:text="Reisen"
+        android:textSize="20dp" />
+
+    <CheckBox
+        android:id="@+id/Freunde"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="425dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:text="Freunde"
+        android:textSize="20dp" />
+
+    <CheckBox
+    android:id="@+id/spielen"
+    android:layout_width="117dp"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="150dp"
+    android:layout_marginLeft="150dp"
+    android:layout_marginTop="425dp"
+    android:layout_marginEnd="24dp"
+    android:layout_marginRight="24dp"
+    android:text="Zocken"
+    android:textSize="20dp" />
+
+    <CheckBox
+        android:id="@+id/Feiern"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="260dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="425dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:text="Feiern"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/aktualisieren"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:text="Aktualisieren"
+        android:textSize="18dp" />
+
 
 </RelativeLayout>

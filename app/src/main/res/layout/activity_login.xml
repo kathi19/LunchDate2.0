@@ -82,6 +82,6 @@
         android:layout_height="wrap_content"
         android:onClick="onClick"
         android:text="Next"
-        tools:layout_editor_absoluteX="136dp"
-        tools:layout_editor_absoluteY="416dp" />
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="390dp" />
 </android.support.constraint.ConstraintLayout>
