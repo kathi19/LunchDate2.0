@@ -1,5 +1,6 @@
 package com.example.lunchdate;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -7,6 +8,8 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.example.lunchdate.ui.login.LoginActivity;
 
 public class DashboardFragment extends Fragment
 {
@@ -16,4 +19,6 @@ public class DashboardFragment extends Fragment
          super.onCreateView(inflater, container, savedInstanceState);
         return inflater.inflate(R.layout.fragment_dashboard, null);
     }
+
+
 }
